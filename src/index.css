@@ -1,0 +1,225 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'DM Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+:root {
+  /* Core Aurora Color Palette */
+  --color-midnight-navy: #0B1020;
+  --color-deep-blue: #14213D;
+  --color-electric-indigo: #4F46E5;
+  --color-vivid-violet: #7C3AED;
+  --color-bright-cyan: #22D3EE;
+  --color-premium-teal: #14B8A6;
+  --color-soft-lavender: #EEF2FF;
+  --color-ice-blue: #ECFEFF;
+  --color-cool-white: #F8FAFC;
+  --color-pure-white: #FFFFFF;
+  --color-text-primary: #111827;
+  --color-text-secondary: #475569;
+  --color-border-neutral: #E2E8F0;
+
+  /* Signature Aurora Gradient System (Gradients A–F) */
+  --grad-signature-aurora: linear-gradient(135deg, #4F46E5 0%, #7C3AED 48%, #22D3EE 100%);
+  --grad-midnight-cinematic: linear-gradient(135deg, #0B1020 0%, #14213D 55%, #312E81 100%);
+  --grad-soft-lavender-glow: linear-gradient(135deg, #EEF2FF 0%, #F5F3FF 55%, #ECFEFF 100%);
+  --grad-indigo-cyan: linear-gradient(110deg, #4F46E5 0%, #6366F1 45%, #06B6D4 100%);
+  --grad-teal-aurora: linear-gradient(135deg, #0F766E 0%, #14B8A6 55%, #22D3EE 100%);
+  --grad-dark-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(148, 163, 184, 0.04));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cool-white);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Gradient G — Soft Ambient Background (Bright, spacious off-white with faint indigo, violet & cyan radial glows) */
+.creative-studio-bg {
+  background-color: var(--color-cool-white);
+  background-image:
+    radial-gradient(circle at 12% 16%, rgba(79, 70, 229, 0.055) 0%, transparent 45%),
+    radial-gradient(circle at 88% 28%, rgba(34, 211, 238, 0.055) 0%, transparent 48%),
+    radial-gradient(circle at 50% 68%, rgba(124, 58, 237, 0.045) 0%, transparent 52%),
+    radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.96) 0%, rgba(248, 250, 252, 0.98) 75%),
+    linear-gradient(to right, rgba(20, 33, 61, 0.024) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(20, 33, 61, 0.024) 1px, transparent 1px);
+  background-size:
+    100% 100%,
+    100% 100%,
+    100% 100%,
+    100% 100%,
+    96px 96px,
+    96px 96px;
+  background-attachment: scroll;
+}
+
+/* Reusable Aurora Gradient Utility Classes */
+.bg-aurora-signature {
+  background-image: var(--grad-signature-aurora);
+}
+
+.text-aurora-signature {
+  background-image: var(--grad-signature-aurora);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-midnight-cinematic {
+  background-image: var(--grad-midnight-cinematic);
+}
+
+.bg-soft-lavender-glow {
+  background-image: var(--grad-soft-lavender-glow);
+}
+
+.bg-indigo-cyan {
+  background-image: var(--grad-indigo-cyan);
+}
+
+.bg-teal-aurora {
+  background-image: var(--grad-teal-aurora);
+}
+
+.text-teal-aurora {
+  background-image: var(--grad-teal-aurora);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Gradient F — Dark Glass Navbar over Hero & Translucent White Navbar over Light Sections */
+.glass-nav {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', var(--font-sans);
+  letter-spacing: -0.014em;
+  -webkit-font-smoothing: antialiased;
+  background:
+    var(--grad-dark-glass),
+    rgba(11, 16, 32, 0.56);
+  backdrop-filter: blur(14px) saturate(180%) contrast(104%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%) contrast(104%);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  box-shadow:
+    0 12px 32px -6px rgba(11, 16, 32, 0.32),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.38);
+  transition: background 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-nav.glass-nav-scrolled {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.92) 0%,
+    rgba(248, 250, 252, 0.86) 100%
+  );
+  border: 1px solid var(--color-border-neutral);
+  box-shadow:
+    0 12px 32px -10px rgba(20, 33, 61, 0.08),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.98);
+}
+
+/* Interactive Nav Link Hover Effect */
+.nav-link {
+  position: relative;
+  letter-spacing: -0.012em;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  opacity: 0;
+  transform: scale(0.92);
+  transition: opacity 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: -1;
+}
+
+.glass-nav-scrolled .nav-link::before {
+  background: rgba(79, 70, 229, 0.07);
+  border: 1px solid rgba(79, 70, 229, 0.16);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+.nav-link:hover::before,
+.nav-link:focus-visible::before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.nav-link:hover {
+  transform: translateY(-0.5px);
+}
+
+/* Smooth Professional White & Soft Lavender Bento Cards */
+.bento-card {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%);
+  border: 1px solid var(--color-border-neutral);
+  box-shadow: 0 12px 32px -14px rgba(20, 33, 61, 0.07);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bento-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(79, 70, 229, 0.38);
+  box-shadow: 0 20px 42px -16px rgba(79, 70, 229, 0.15);
+}
+
+/* Glossy Glass Box & Inner Glossy Tiles for Highlight Strip */
+.glossy-glass-box {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.92) 0%,
+    rgba(238, 242, 255, 0.84) 52%,
+    rgba(236, 254, 255, 0.88) 100%
+  );
+  backdrop-filter: blur(24px) saturate(190%) contrast(104%);
+  -webkit-backdrop-filter: blur(24px) saturate(190%) contrast(104%);
+  border: 1px solid var(--color-border-neutral);
+  box-shadow:
+    0 24px 54px -14px rgba(11, 16, 32, 0.12),
+    0 6px 20px -4px rgba(79, 70, 229, 0.08),
+    inset 0 2px 2px rgba(255, 255, 255, 1);
+}
+
+.glossy-glass-tile {
+  background: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0.96) 0%,
+    rgba(248, 250, 252, 0.90) 60%,
+    rgba(238, 242, 255, 0.85) 100%
+  );
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+  border: 1px solid var(--color-border-neutral);
+  box-shadow:
+    0 10px 24px -10px rgba(20, 33, 61, 0.07),
+    inset 0 1.5px 1px rgba(255, 255, 255, 1);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+}
+
+.glossy-glass-tile:hover {
+  transform: translateY(-3px);
+  border-color: rgba(79, 70, 229, 0.42);
+  box-shadow:
+    0 16px 32px -10px rgba(79, 70, 229, 0.14),
+    inset 0 1.5px 1.5px rgba(255, 255, 255, 1);
+}
+
+.album-item {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+

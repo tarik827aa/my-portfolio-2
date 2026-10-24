@@ -1,0 +1,369 @@
+{
+  "videoSections": {
+    "insights": {
+      "sectionId": "insights",
+      "title": "Insight & Perspective Videos",
+      "filterLabel": "Insight Videos",
+      "badge": "Insight Video Series",
+      "summary": "Deep-dive video essays on career skills, analytical thinking, and storytelling.",
+      "defaultTools": "Video Scripting · Visual Storytelling · Motion Graphics",
+      "items": [
+        {
+          "id": "album-insights-1",
+          "title": "Career & Analytical Thinking Insight #01",
+          "videoUrl": "",
+          "platform": "YouTube",
+          "description": "Deep-dive insight video exploring practical skills and structured problem solving.",
+          "thumbnail": "",
+          "publishDate": "2026-03-15",
+          "displayOrder": 1,
+          "published": true,
+          "badge": "Career & Skills · #01",
+          "tools": "Video Scripting · Visual Storytelling · Motion Graphics"
+        },
+        {
+          "id": "album-insights-2",
+          "title": "Digital Storytelling & Communication #02",
+          "videoUrl": "",
+          "platform": "YouTube",
+          "description": "Visual breakdown on audience retention, clarity, and creative perspective.",
+          "thumbnail": "",
+          "publishDate": "2026-03-10",
+          "displayOrder": 2,
+          "published": true,
+          "badge": "Storytelling · #02",
+          "tools": "Video Scripting · Visual Storytelling · Motion Graphics"
+        },
+        {
+          "id": "album-insights-3",
+          "title": "Skill Building & Perspective Essay #03",
+          "videoUrl": "",
+          "platform": "Facebook",
+          "description": "Thought-provoking perspective reel designed for students and young professionals.",
+          "thumbnail": "",
+          "publishDate": "2026-03-05",
+          "displayOrder": 3,
+          "published": true,
+          "badge": "Analytical Insights · #03",
+          "tools": "Video Scripting · Visual Storytelling · Motion Graphics"
+        }
+      ]
+    },
+    "book-reviews": {
+      "sectionId": "book-reviews",
+      "title": "Self-Improvement & Book Review Reels",
+      "filterLabel": "Self-Improvement & Book Review",
+      "badge": "Self-Improvement & Book Review",
+      "summary": "Actionable book reviews, mindset shifts, and habit framework reels.",
+      "defaultTools": "Final Cut Pro · Kinetic Typography · Audio Mastering",
+      "items": [
+        {
+          "id": "album-book-reviews-1",
+          "title": "Book Review & Habit System Reel #01",
+          "videoUrl": "",
+          "platform": "YouTube",
+          "description": "Actionable book review and habit framework reel for personal growth.",
+          "thumbnail": "",
+          "publishDate": "2026-03-14",
+          "displayOrder": 1,
+          "published": true,
+          "badge": "Book Review Reels · #01",
+          "tools": "Final Cut Pro · Kinetic Typography · Audio Mastering"
+        },
+        {
+          "id": "album-book-reviews-2",
+          "title": "Mindset & Deep Work Breakdown #02",
+          "videoUrl": "",
+          "platform": "Facebook",
+          "description": "Key takeaways and practical productivity systems from non-fiction reads.",
+          "thumbnail": "",
+          "publishDate": "2026-03-09",
+          "displayOrder": 2,
+          "published": true,
+          "badge": "Self-Improvement · #02",
+          "tools": "Final Cut Pro · Kinetic Typography · Audio Mastering"
+        },
+        {
+          "id": "album-book-reviews-3",
+          "title": "Self-Improvement & Reading Insights #03",
+          "videoUrl": "",
+          "platform": "Instagram",
+          "description": "Structured summary and daily life application for students and creators.",
+          "thumbnail": "",
+          "publishDate": "2026-03-04",
+          "displayOrder": 3,
+          "published": true,
+          "badge": "Habit & Productivity · #03",
+          "tools": "Final Cut Pro · Kinetic Typography · Audio Mastering"
+        }
+      ]
+    },
+    "campus-promo": {
+      "sectionId": "campus-promo",
+      "title": "Promotional Story",
+      "filterLabel": "Campus Promotional Story",
+      "badge": "Promotional Story",
+      "summary": "High-tempo promotional stories, event trailers, and official BTEC campaign reels.",
+      "defaultTools": "Final Cut Pro · Event Trailers · Sound Design",
+      "items": [
+        {
+          "id": "album-campus-promo-1",
+          "title": "Flagship Campus Event Trailer #01",
+          "videoUrl": "",
+          "platform": "Facebook",
+          "description": "High-tempo promotional story and official event teaser for campus initiatives.",
+          "thumbnail": "",
+          "publishDate": "2026-03-13",
+          "displayOrder": 1,
+          "published": true,
+          "badge": "Event Trailers · #01",
+          "tools": "Final Cut Pro · Event Trailers · Sound Design"
+        },
+        {
+          "id": "album-campus-promo-2",
+          "title": "Career Club BTEC Campaign Reel #02",
+          "videoUrl": "",
+          "platform": "Facebook",
+          "description": "Dynamic motion promo and registration launch video for student programs.",
+          "thumbnail": "",
+          "publishDate": "2026-03-08",
+          "displayOrder": 2,
+          "published": true,
+          "badge": "Career Club BTEC · #02",
+          "tools": "Final Cut Pro · Event Trailers · Sound Design"
+        },
+        {
+          "id": "album-campus-promo-3",
+          "title": "Campus Highlight & Visual Story #03",
+          "videoUrl": "",
+          "platform": "YouTube",
+          "description": "Cinematic campus story capturing student energy, competitions, and milestones.",
+          "thumbnail": "",
+          "publishDate": "2026-03-03",
+          "displayOrder": 3,
+          "published": true,
+          "badge": "Campus Highlights · #03",
+          "tools": "Final Cut Pro · Event Trailers · Sound Design"
+        }
+      ]
+    }
+  },
+  "photoSections": {
+    "achievements": {
+      "sectionId": "achievements",
+      "title": "My Achievements",
+      "filterLabel": "My Achievements",
+      "badge": "My Achievements",
+      "summary": "Awards, leadership crests, milestone certificates, and stage recognitions.",
+      "defaultTools": "Leadership Honors · Crests · Certifications",
+      "items": [
+        {
+          "id": "album-achievements-1",
+          "image": "",
+          "title": "Leadership Crest & Honor #01",
+          "description": "Recognition for creative leadership and organizational impact.",
+          "publishDate": "2026-03-12",
+          "displayOrder": 1,
+          "published": true,
+          "badge": "Crests & Honors · #01",
+          "tools": "Leadership Honors · Crests · Certifications"
+        },
+        {
+          "id": "album-achievements-2",
+          "image": "",
+          "title": "Award & Milestone Certificate #02",
+          "description": "Certificate of excellence from campus and national competitions.",
+          "publishDate": "2026-03-07",
+          "displayOrder": 2,
+          "published": true,
+          "badge": "Certificates · #02",
+          "tools": "Leadership Honors · Crests · Certifications"
+        },
+        {
+          "id": "album-achievements-3",
+          "image": "",
+          "title": "Executive Recognition Frame #03",
+          "description": "Special appreciation moment for creative direction and media work.",
+          "publishDate": "2026-03-02",
+          "displayOrder": 3,
+          "published": true,
+          "badge": "Executive Recognition · #03",
+          "tools": "Leadership Honors · Crests · Certifications"
+        },
+        {
+          "id": "album-achievements-4",
+          "image": "",
+          "title": "Competition & Event Trophy #04",
+          "description": "Memorable stage recognition and achievement highlight.",
+          "publishDate": "2026-02-25",
+          "displayOrder": 4,
+          "published": true,
+          "badge": "Competition Trophies · #04",
+          "tools": "Leadership Honors · Crests · Certifications"
+        }
+      ]
+    },
+    "seminars": {
+      "sectionId": "seminars",
+      "title": "Different Seminars",
+      "filterLabel": "Different Seminars",
+      "badge": "Different Seminars",
+      "summary": "Snapshots from BGMEA Bhaban events, BTEC career workshops, and conferences.",
+      "defaultTools": "BGMEA Bhaban · BTEC Seminars · Industry Sessions",
+      "items": [
+        {
+          "id": "album-seminars-1",
+          "image": "",
+          "title": "BGMEA Bhaban Seminar Session #01",
+          "description": "Public speaking and industry seminar at BGMEA Bhaban, Dhaka.",
+          "publishDate": "2026-03-11",
+          "displayOrder": 1,
+          "published": true,
+          "badge": "BGMEA Bhaban · #01",
+          "tools": "BGMEA Bhaban · BTEC Seminars · Industry Sessions"
+        },
+        {
+          "id": "album-seminars-2",
+          "image": "",
+          "title": "Career & LinkedIn Workshop #02",
+          "description": "Interactive student career development seminar at BTEC.",
+          "publishDate": "2026-03-06",
+          "displayOrder": 2,
+          "published": true,
+          "badge": "BTEC Workshops · #02",
+          "tools": "BGMEA Bhaban · BTEC Seminars · Industry Sessions"
+        },
+        {
+          "id": "album-seminars-3",
+          "image": "",
+          "title": "National Textile Conference #03",
+          "description": "Networking with industry leaders and textile professionals.",
+          "publishDate": "2026-03-01",
+          "displayOrder": 3,
+          "published": true,
+          "badge": "National Conferences · #03",
+          "tools": "BGMEA Bhaban · BTEC Seminars · Industry Sessions"
+        },
+        {
+          "id": "album-seminars-4",
+          "image": "",
+          "title": "Youth Leadership & Skill Forum #04",
+          "description": "Knowledge-sharing session and panel discussion snapshot.",
+          "publishDate": "2026-02-22",
+          "displayOrder": 4,
+          "published": true,
+          "badge": "Youth Forums · #04",
+          "tools": "BGMEA Bhaban · BTEC Seminars · Industry Sessions"
+        }
+      ]
+    },
+    "tours": {
+      "sectionId": "tours",
+      "title": "Tours & Expeditions",
+      "filterLabel": "Tours & Expeditions",
+      "badge": "Tours & Expeditions",
+      "summary": "Memorable frames from group expeditions, industrial mill visits, and travels.",
+      "defaultTools": "Travel Photography · Group Tours · Field Visits",
+      "items": [
+        {
+          "id": "album-tours-1",
+          "image": "",
+          "title": "Campus Group Expedition #01",
+          "description": "Memorable travel frame with batchmates and friends.",
+          "publishDate": "2026-03-10",
+          "displayOrder": 1,
+          "published": true,
+          "badge": "Group Expeditions · #01",
+          "tools": "Travel Photography · Group Tours · Field Visits"
+        },
+        {
+          "id": "album-tours-2",
+          "image": "",
+          "title": "Industrial & Mill Study Tour #02",
+          "description": "Field visit exploring wet processing plants and machinery.",
+          "publishDate": "2026-03-05",
+          "displayOrder": 2,
+          "published": true,
+          "badge": "Industrial Tours · #02",
+          "tools": "Travel Photography · Group Tours · Field Visits"
+        },
+        {
+          "id": "album-tours-3",
+          "image": "",
+          "title": "Nature & Coastal Journey #03",
+          "description": "Scenic landscape and outdoor exploration photography.",
+          "publishDate": "2026-02-28",
+          "displayOrder": 3,
+          "published": true,
+          "badge": "Nature & Travel · #03",
+          "tools": "Travel Photography · Group Tours · Field Visits"
+        },
+        {
+          "id": "album-tours-4",
+          "image": "",
+          "title": "Retreat & Team Outing #04",
+          "description": "Candid moments from club tours and outdoor adventures.",
+          "publishDate": "2026-02-20",
+          "displayOrder": 4,
+          "published": true,
+          "badge": "Club Outings · #04",
+          "tools": "Travel Photography · Group Tours · Field Visits"
+        }
+      ]
+    },
+    "personal": {
+      "sectionId": "personal",
+      "title": "Personal Photos",
+      "filterLabel": "Personal Photos",
+      "badge": "Personal Photos",
+      "summary": "Personal portraits, creative editing workspace, and everyday campus life.",
+      "defaultTools": "Portraits · Behind-the-Scenes · Campus Life",
+      "items": [
+        {
+          "id": "album-personal-1",
+          "image": "",
+          "title": "Personal Portrait & Profile #01",
+          "description": "Signature portrait and personal branding frame.",
+          "publishDate": "2026-03-09",
+          "displayOrder": 1,
+          "published": true,
+          "badge": "Portraits · #01",
+          "tools": "Portraits · Behind-the-Scenes · Campus Life"
+        },
+        {
+          "id": "album-personal-2",
+          "image": "",
+          "title": "Creative Editing Workspace #02",
+          "description": "Behind-the-scenes setup for video scripting and editing.",
+          "publishDate": "2026-03-04",
+          "displayOrder": 2,
+          "published": true,
+          "badge": "Creative Workspace · #02",
+          "tools": "Portraits · Behind-the-Scenes · Campus Life"
+        },
+        {
+          "id": "album-personal-3",
+          "image": "",
+          "title": "BTEC Campus Life Snapshot #03",
+          "description": "Everyday moment at Barishal Textile Engineering College.",
+          "publishDate": "2026-02-27",
+          "displayOrder": 3,
+          "published": true,
+          "badge": "Campus Life · #03",
+          "tools": "Portraits · Behind-the-Scenes · Campus Life"
+        },
+        {
+          "id": "album-personal-4",
+          "image": "",
+          "title": "Candid & Lifestyle Frame #04",
+          "description": "Personal milestone and memorable everyday perspective.",
+          "publishDate": "2026-02-18",
+          "displayOrder": 4,
+          "published": true,
+          "badge": "Candid Moments · #04",
+          "tools": "Portraits · Behind-the-Scenes · Campus Life"
+        }
+      ]
+    }
+  }
+}
